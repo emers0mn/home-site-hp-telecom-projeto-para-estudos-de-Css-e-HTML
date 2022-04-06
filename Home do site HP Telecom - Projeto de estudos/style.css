@@ -1,0 +1,226 @@
+@font-face {
+    font-family: gordita-lite;
+    src: url(type/Gordita\ Light.otf);
+}
+
+@font-face {
+    font-family: gordita-bold;
+    src: url(type/Gordita\ Bold.otf);
+}
+
+@font-face {
+    font-family: gordita-regular;
+    src: url(type/Gordita\ Regular.otf);
+}
+
+body{
+    font-family: gordita-bold;
+    background-color: black;
+}
+
+header{
+}
+
+.bg-home{
+    background-color: black;
+    width: 85%;
+    height: 20%;
+    margin: auto;
+}
+
+.logo-home{
+    width: 100px;
+    margin-top: 40px;
+
+}
+
+.lista-home{
+    font-size: 23px;
+    font-family: gordita-lite;
+    float: right;
+    margin-top: 40px;
+
+    position: relative;
+    top: 50%;
+}
+
+li{
+    list-style: none;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.link-home{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #02A429;
+}
+
+#borda-home{
+    margin-left: 0px;
+}
+
+section{
+    background-color: white;
+    background-repeat: no-repeat;
+}
+
+.mensagem{
+    position: relative;
+    bottom: 70px;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+
+#planos-green{
+    color: #02A429;
+}
+
+.tamanho{
+    color: white;
+    font-size: 110px;
+    position: absolute;
+    left: 90px;
+    top: 290px;
+}
+
+#mega{
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 335px;
+    top: 340px;
+}
+
+#com{
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 338px;
+    top: 450px;
+}
+
+#wifi5{
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 450px;
+    top: 450px;
+}
+
+.wi-fi{
+    width: 40px;
+    position: absolute;
+    left: 400px;
+    top: 475px;
+}
+
+.bt-saiba-mais{
+    color: white;
+    background-color: #02A429;
+    border-radius: 11px;
+    position: absolute;
+    width: 143px;
+    height: 54px;
+    left: 90px;
+    top: 530px;
+}
+
+.saiba-mais{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-20%,-100%);
+}
+
+
+.bg-white{
+    background: #ffffff;
+    position: fixed;
+    right: 25px;
+    bottom: 0px;
+    width: 200px;
+    height: 290px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#receita{
+    font-family: gordita-bold;
+    font-size: 13px;
+    line-height: 21px;
+    color: black;
+    position: fixed;
+    right: 42px;
+    bottom: 200px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#cookie{
+    position: fixed;
+    right: 100px;
+    bottom: 218px;
+}
+
+.texto-do-cookie{
+    color: black;
+    position: fixed;
+    width: 163px;
+    height: 139px;
+    right: 42px;
+    bottom: 80px;
+    font-size: 10px;
+    font-family: gordita-regular;
+    line-height: 14px;
+    display: inline-block;
+}
+
+#bt-recusar{
+    position: relative;
+    width: 72px;
+    height: 20px;
+    border: #04C437 solid;
+    border-radius: 5px;
+    position: absolute;
+    margin-right: 5px;
+}
+
+#recusar{
+    font-family: gordita-regular;
+    font-size: 10px;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+}
+
+#bt-aceitar{
+    font-family: gordita-regular;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    width: 72px;
+    height: 20px;
+    background: linear-gradient(90deg, #008C1E 0%, #04CB3A 100%);
+    border-radius: 5px;
+    padding-top: 5px;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
