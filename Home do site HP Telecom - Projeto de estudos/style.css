@@ -18,9 +18,6 @@ body{
     background-color: black;
 }
 
-header{
-}
-
 .bg-home{
     background-color: black;
     width: 85%;
@@ -211,7 +208,7 @@ h1{
 #bt-aceitar{
     font-family: gordita-regular;
     font-size: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     width: 72px;
     height: 20px;
